@@ -1,0 +1,37 @@
+{
+  "name": "family-crest-origins",
+  "version": "1.0.0",
+  "description": "Get The Origins Of Your Family Crest for your surname.",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joseluisq/family-crest-origins.git"
+  },
+  "keywords": [
+    "etymology",
+    "origins",
+    "surnames",
+    "firstnames",
+    "lastnames",
+    "names",
+    "meaning",
+    "history"
+  ],
+  "author": "José Luis Quintana",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joseluisq/family-crest-origins/issues"
+  },
+  "homepage": "https://github.com/joseluisq/family-crest-origins",
+  "dependencies": {
+    "cheerio": "*",
+    "got": "*",
+    "pinkie-promise": "*"
+  },
+  "devDependencies": {
+    "tape": "*"
+  }
+}
