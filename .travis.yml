@@ -3,8 +3,5 @@ language: node_js
 node_js:
   - "5"
   - "4"
-  - "0.10"
-  - "0.12"
-  - "iojs"
 notifications:
   email: false
