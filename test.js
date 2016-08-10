@@ -4,15 +4,15 @@ var familyCrest = require('./')
 test('Family Crest Origins Test Suite', function (t) {
   t.plan(3)
 
+  familyCrest().catch(function (error) {
+    t.ok(error, 'should be an error object.')
+  })
+
   familyCrest('Smith').then(function (res) {
-    t.ok(res, 'should be ok for valid surname.')
+    t.ok(res, '`Smith` surname should be valid.')
   })
 
-  familyCrest('unknown').catch(function (e) {
-    t.ok(e, 'should throw an error when surname is not found.')
-  })
-
-  familyCrest().catch(function (e) {
-    t.ok(e, 'should throw an error when surname is not provided.')
+  familyCrest('unknown').then(function (res) {
+    t.ok(1, '`unknown` surname should be invalid.')
   })
 })
