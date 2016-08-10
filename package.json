@@ -1,6 +1,6 @@
 {
   "name": "family-crest-origins",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Get The Origins Of Your Family Crest for your surname.",
   "main": "index.js",
   "scripts": {
@@ -27,11 +27,11 @@
   },
   "homepage": "https://github.com/joseluisq/family-crest-origins",
   "dependencies": {
-    "cheerio": "*",
-    "got": "*",
-    "pinkie-promise": "*"
+    "cheerio": "^0.20.0",
+    "got": "^6.3.0",
+    "pinkie-promise": "^2.0.1"
   },
   "devDependencies": {
-    "tape": "*"
+    "tape": "^4.6.0"
   }
 }

@@ -1,4 +1,4 @@
-# family-crest-origins [![Build Status](https://travis-ci.org/joseluisq/family-crest-origins.svg?branch=master)](https://travis-ci.org/joseluisq/family-crest-origins)
+# family-crest-origins [![Build Status](https://travis-ci.org/joseluisq/family-crest-origins.svg?branch=master)](https://travis-ci.org/joseluisq/family-crest-origins) [![JavaScript Style Guide](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
 > Get The Origins Of Your Family Crest for your surname.
 
 ## Install
