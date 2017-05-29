@@ -28,7 +28,7 @@
   "homepage": "https://github.com/joseluisq/family-crest-origins",
   "dependencies": {
     "cheerio": "^0.22.0",
-    "got": "^6.3.0",
+    "got": "^7.0.0",
     "pinkie-promise": "^2.0.1"
   },
   "devDependencies": {
